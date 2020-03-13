@@ -1,0 +1,17 @@
+.position {
+    font-size: 10pt;
+    text-align: left;
+    margin: 2pt;
+    border-bottom: 1pt dotted black;
+
+    display: flex;
+    flex-direction: row;
+    /*align-content: space-evenly;*/
+    justify-content: space-evenly;
+}
+
+.position > span {
+    width: 20%;
+    margin: 0 .5em;
+    flex: 1;
+}
