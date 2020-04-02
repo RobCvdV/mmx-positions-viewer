@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11832fd3-90ad-4c84-9ba4-adc089244b74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Position.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Position.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Positions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/positions-user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bouwman-geeen_rijden.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/roemaat_edwin_20200401.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Positions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Positions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/positions-user.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/positions-user.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +20,13 @@
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="TypeScript File" />
+        <option value="json" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1XTrnOP05W9LtDQ5k4Nz42mQ6cq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON&#10;TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -52,7 +50,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -84,40 +91,104 @@
       <workItem from="1583161848925" duration="454000" />
       <workItem from="1583319924811" duration="2227000" />
       <workItem from="1583397339237" duration="2631000" />
+      <workItem from="1584096606868" duration="391000" />
+      <workItem from="1584347042057" duration="1906000" />
+      <workItem from="1584704680955" duration="3770000" />
+      <workItem from="1584722642872" duration="1201000" />
+      <workItem from="1585744838826" duration="2326000" />
+      <workItem from="1585821247044" duration="54000" />
     </task>
+    <task id="LOCAL-00001" summary="Position array in separate file 'positions-user.js'">
+      <created>1584096671708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584096671708</updated>
+    </task>
+    <task id="LOCAL-00002" summary="toegevoegd: charisma-efficient-2020-03-18.json&#10;rc-repro-van-charisma-2020-03-18.json&#10;-bij rc is vlak na moment dat taak is afgerond te voorgrond afgesloten. Daarna met mock locations gaan rijden. Later voorgrond weer geopend. Nu is er een klein gat van activiteiten moenten in delogging en in urenregistratie een blok van 50 sec onbekende activiteit.">
+      <created>1584711087106</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584711087106</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Position array in separate file 'positions-user.js'" />
+    <MESSAGE value="toegevoegd: charisma-efficient-2020-03-18.json&#10;rc-repro-van-charisma-2020-03-18.json&#10;-bij rc is vlak na moment dat taak is afgerond te voorgrond afgesloten. Daarna met mock locations gaan rijden. Later voorgrond weer geopend. Nu is er een klein gat van activiteiten moenten in delogging en in urenregistratie een blok van 50 sec onbekende activiteit." />
+    <option name="LAST_COMMIT_MESSAGE" value="toegevoegd: charisma-efficient-2020-03-18.json&#10;rc-repro-van-charisma-2020-03-18.json&#10;-bij rc is vlak na moment dat taak is afgerond te voorgrond afgesloten. Daarna met mock locations gaan rijden. Later voorgrond weer geopend. Nu is er een klein gat van activiteiten moenten in delogging en in urenregistratie een blok van 50 sec onbekende activiteit." />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1876" height="435" key="GridCell.Tab.0.bottom" timestamp="1583401955671">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="928" y="505" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1585744913026">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="928" y="505" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1585744913026" />
+    <state x="873" y="334" key="CommitChangelistDialog2" timestamp="1584711086848">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="873" y="334" key="CommitChangelistDialog2/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1584711086848" />
+    <state width="2516" height="607" key="GridCell.Tab.0.bottom" timestamp="1585758039988">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1636" height="421" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583166732664" />
     <state width="1876" height="435" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1680.1027@0.23.1920.1057" timestamp="1583401955671" />
-    <state width="1876" height="435" key="GridCell.Tab.0.bottom/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1583350980468" />
-    <state width="1876" height="435" key="GridCell.Tab.0.center" timestamp="1583401955670">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="2516" height="607" key="GridCell.Tab.0.bottom/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1585758039988" />
+    <state width="2516" height="607" key="GridCell.Tab.0.center" timestamp="1585758039986">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1636" height="421" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583166732664" />
     <state width="1876" height="435" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1680.1027@0.23.1920.1057" timestamp="1583401955670" />
-    <state width="1876" height="435" key="GridCell.Tab.0.center/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1583350980466" />
-    <state width="1876" height="435" key="GridCell.Tab.0.left" timestamp="1583401955669">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="2516" height="607" key="GridCell.Tab.0.center/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1585758039986" />
+    <state width="2516" height="607" key="GridCell.Tab.0.left" timestamp="1585758039986">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1636" height="421" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583166732664" />
     <state width="1876" height="435" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1680.1027@0.23.1920.1057" timestamp="1583401955669" />
-    <state width="1876" height="435" key="GridCell.Tab.0.left/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1583350980466" />
-    <state width="1876" height="435" key="GridCell.Tab.0.right" timestamp="1583401955670">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="2516" height="607" key="GridCell.Tab.0.left/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1585758039986" />
+    <state width="2516" height="607" key="GridCell.Tab.0.right" timestamp="1585758039987">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1636" height="421" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583166732664" />
     <state width="1876" height="435" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1680.1027@0.23.1920.1057" timestamp="1583401955670" />
-    <state width="1876" height="435" key="GridCell.Tab.0.right/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1583350980467" />
-    <state x="517" y="142" width="639" height="486" key="find.popup" timestamp="1583398938045">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="2516" height="607" key="GridCell.Tab.0.right/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1585758039987" />
+    <state x="789" y="370" key="SettingsEditor" timestamp="1585745029666">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="789" y="370" key="SettingsEditor/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1585745029666" />
+    <state x="880" y="471" key="Vcs.Push.Dialog.v2" timestamp="1584096857561">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="880" y="471" key="Vcs.Push.Dialog.v2/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1584096857561" />
+    <state x="1085" y="655" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584347079253">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1085" y="655" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1584347079253" />
+    <state x="689" y="183" width="852" height="652" key="find.popup" timestamp="1585751230519">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="517" y="142" width="639" height="486" key="find.popup/0.23.1920.1057/1920.23.1680.1027@0.23.1920.1057" timestamp="1583398938045" />
+    <state x="689" y="183" width="852" height="652" key="find.popup/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1585751230519" />
+    <state width="634" height="160" key="javadoc.popup.new" timestamp="1585757918145">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="634" height="160" key="javadoc.popup.new/0.23.2560.1417/2560.413.1680.1027@0.23.2560.1417" timestamp="1585757918145" />
   </component>
 </project>
